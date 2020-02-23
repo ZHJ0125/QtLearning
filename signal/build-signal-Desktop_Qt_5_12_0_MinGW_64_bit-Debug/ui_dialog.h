@@ -23,6 +23,7 @@ public:
     QPushButton *pushButton;
     QPushButton *pushButton_2;
     QLabel *label;
+    QPushButton *showChildButton;
 
     void setupUi(QDialog *Dialog)
     {
@@ -38,6 +39,9 @@ public:
         label = new QLabel(Dialog);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(150, 70, 101, 51));
+        showChildButton = new QPushButton(Dialog);
+        showChildButton->setObjectName(QString::fromUtf8("showChildButton"));
+        showChildButton->setGeometry(QRect(150, 250, 75, 23));
 
         retranslateUi(Dialog);
         QObject::connect(pushButton, SIGNAL(clicked()), Dialog, SLOT(close()));
@@ -51,6 +55,7 @@ public:
         pushButton->setText(QApplication::translate("Dialog", "\351\200\200\345\207\272\347\250\213\345\272\217", nullptr));
         pushButton_2->setText(QApplication::translate("Dialog", "\350\277\233\345\205\245\344\270\273\347\225\214\351\235\242", nullptr));
         label->setText(QApplication::translate("Dialog", "\350\277\231\346\230\257\344\270\200\344\270\252\344\270\273\347\252\227\345\217\243", nullptr));
+        showChildButton->setText(QApplication::translate("Dialog", "\346\265\213\350\257\225\346\214\211\351\222\256", nullptr));
     } // retranslateUi
 
 };
