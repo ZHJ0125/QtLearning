@@ -30,7 +30,7 @@
 
 6. 修改字体大小，设置layout布局
 
-![设置布局](hhttps://github.com/ZHJ0125/QtLearning/blob/master/Image/09_Tab/07_%E8%AE%BE%E7%BD%AE%E4%BD%8D%E7%BD%AE.png)
+![设置布局](https://github.com/ZHJ0125/QtLearning/blob/master/Image/09_Tab/07_%E8%AE%BE%E7%BD%AE%E4%BD%8D%E7%BD%AE.png)
 
 7. 添加一个新的Qt设计界面
 
