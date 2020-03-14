@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "QToolButton"
+#include "QSpinBox"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -10,7 +12,19 @@ MainWindow::MainWindow(QWidget *parent) :
     QAction *action_Open = editMenu->addAction(
     QIcon(":/image/images/build.png"),tr("编译全部(&A)"));
     action_Open->setShortcut(QKeySequence("Ctrl+A"));
-    //ui->mainToolBar->addAction(action_Open);
+
+    ui->mainToolBar->addAction(action_Open);
+    QToolButton *toolBtn = new QToolButton(this);        // 创建QToolButton
+    toolBtn->setText(tr("颜色"));
+    QMenu *colorMenu = new QMenu(this);                  // 创建一个菜单
+    colorMenu->addAction(tr("红色"));
+    colorMenu->addAction(tr("绿色"));
+    toolBtn->setMenu(colorMenu);                         // 添加菜单
+    toolBtn->setPopupMode(QToolButton::MenuButtonPopup); // 设置弹出模式
+    ui->mainToolBar->addWidget(toolBtn);           // 向工具栏添加QToolButton按钮
+    QSpinBox *spinBox = new QSpinBox(this);         // 创建QSpinBox
+    ui->mainToolBar->addWidget(spinBox);            // 向工具栏添加QSpinBox部件
+
 }
 
 MainWindow::~MainWindow()
