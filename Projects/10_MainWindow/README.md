@@ -1,8 +1,8 @@
 ## 程序说明
 
-> 编写一个用户登陆界面，点击"登录"转到主界面，点击"注册"转到注册界面
+> 编写MainWindow测试界面，创建菜单栏和工具栏，并为其添加相应的功能
 >
-> 项目地址：[https://github.com/ZHJ0125/QtLearning/tree/master/Projects/09_Tab](https://github.com/ZHJ0125/QtLearning/tree/master/Projects/09_Tab)
+> 项目地址：[https://github.com/ZHJ0125/QtLearning/tree/master/Projects/10_MainWindow](https://github.com/ZHJ0125/QtLearning/tree/master/Projects/10_MainWindow)
 
 ## 过程简述
 
