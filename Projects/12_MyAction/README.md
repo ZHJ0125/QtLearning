@@ -2,7 +2,7 @@
 
 > 编写MainWindow测试界面，创建菜单栏和工具栏。编写自定义类，使用connect关联信号和槽
 >
-> 项目地址：[https://github.com/ZHJ0125/QtLearning/tree/master/Projects/11_MainWindow2/](https://github.com/ZHJ0125/QtLearning/tree/master/Projects/12_MyAction)
+> 项目地址：[https://github.com/ZHJ0125/QtLearning/edit/master/Projects/12_MyAction/](https://github.com/ZHJ0125/QtLearning/tree/master/Projects/12_MyAction)
 
 ## 过程简述
 
