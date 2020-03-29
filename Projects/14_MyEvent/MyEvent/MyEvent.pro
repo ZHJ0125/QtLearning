@@ -26,10 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    mylineedit.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    mylineedit.h
 
 FORMS += \
         mainwindow.ui

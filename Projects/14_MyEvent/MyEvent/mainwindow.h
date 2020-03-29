@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+class MyLineEdit;
 namespace Ui {
 class MainWindow;
 }
@@ -15,8 +16,14 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    bool eventFilter(QObject *obj, QEvent *event);
+
 private:
     Ui::MainWindow *ui;
+    MyLineEdit *lineEdit;
+
+protected:
+    void keyPressEvent(QKeyEvent *event);
 };
 
 #endif // MAINWINDOW_H
