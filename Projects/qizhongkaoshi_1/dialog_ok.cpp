@@ -6,7 +6,6 @@ Dialog_OK::Dialog_OK(QWidget *parent) :
     ui(new Ui::Dialog_OK)
 {
     ui->setupUi(this);
-    flag = 0;
 }
 
 Dialog_OK::~Dialog_OK()
@@ -17,8 +16,7 @@ Dialog_OK::~Dialog_OK()
 void Dialog_OK::on_pushButton_clicked()
 {
     flag = 1;
-    if(ui->lineEdit->text()=="zhanghoujin"&&ui->lineEdit_2->text()=="123456")
-        accept();
+    accept();
 }
 
 void Dialog_OK::on_pushButton_2_clicked()
