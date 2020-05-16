@@ -206,6 +206,7 @@ Makefile: ../25_MyMedia/25_MyMedia.pro ../../../../install/5.12.0/mingw73_64/mks
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/qt_config.prf \
 		../../../../install/5.12.0/mingw73_64/mkspecs/win32-g++/qmake.conf \
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/exclusive_builds.prf \
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/toolchain.prf \
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/default_pre.prf \
@@ -229,6 +230,7 @@ Makefile: ../25_MyMedia/25_MyMedia.pro ../../../../install/5.12.0/mingw73_64/mks
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/yacc.prf \
 		../../../../install/5.12.0/mingw73_64/mkspecs/features/lex.prf \
 		../25_MyMedia/25_MyMedia.pro \
+		../../../../install/5.12.0/mingw73_64/lib/Qt5MultimediaWidgets.prl \
 		../../../../install/5.12.0/mingw73_64/lib/Qt5Multimedia.prl \
 		../../../../install/5.12.0/mingw73_64/lib/Qt5Widgets.prl \
 		../../../../install/5.12.0/mingw73_64/lib/Qt5Gui.prl \
@@ -381,6 +383,7 @@ Makefile: ../25_MyMedia/25_MyMedia.pro ../../../../install/5.12.0/mingw73_64/mks
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/qt_config.prf:
 ../../../../install/5.12.0/mingw73_64/mkspecs/win32-g++/qmake.conf:
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/exclusive_builds.prf:
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/toolchain.prf:
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/default_pre.prf:
@@ -404,6 +407,7 @@ Makefile: ../25_MyMedia/25_MyMedia.pro ../../../../install/5.12.0/mingw73_64/mks
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/yacc.prf:
 ../../../../install/5.12.0/mingw73_64/mkspecs/features/lex.prf:
 ../25_MyMedia/25_MyMedia.pro:
+../../../../install/5.12.0/mingw73_64/lib/Qt5MultimediaWidgets.prl:
 ../../../../install/5.12.0/mingw73_64/lib/Qt5Multimedia.prl:
 ../../../../install/5.12.0/mingw73_64/lib/Qt5Widgets.prl:
 ../../../../install/5.12.0/mingw73_64/lib/Qt5Gui.prl:

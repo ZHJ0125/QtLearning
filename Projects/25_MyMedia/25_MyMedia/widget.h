@@ -4,6 +4,11 @@
 #include <QWidget>
 #include <QMediaPlayer>
 class QMediaPlaylist;
+class QCamera;
+class QCameraViewfinder;
+class QCameraImageCapture;
+class QMediaRecorder;
+class QAudioRecorder;
 
 namespace Ui {
 class Widget;
@@ -21,6 +26,11 @@ private:
     Ui::Widget *ui;
     QMediaPlayer *player;
     QMediaPlaylist *playlist;
+    QCamera *camera;
+    QCameraViewfinder *viewfinder;
+    QCameraImageCapture *imageCapture;
+    QMediaRecorder *recorder;
+    QAudioRecorder *audioRecorder;
 
 private slots:
     void updatePosition(qint64 position);
@@ -32,6 +42,13 @@ private slots:
     void on_pushButton_Pause_clicked();
     void on_pushButton_Stop_clicked();
     void on_horizontalSlider_sliderMoved(int position);
+    void on_pushButton_Capture_clicked();
+    void on_pushButton_Open_Camera_clicked();
+    void on_pushButton_Close_Camera_clicked();
+    void updateProgress(qint64 duration);
+    void on_pushButton_Start_Recorder_clicked();
+    void on_pushButton_Stop_Recorder_clicked();
+    void on_pushButton_clicked();
 };
 
 #endif // WIDGET_H
